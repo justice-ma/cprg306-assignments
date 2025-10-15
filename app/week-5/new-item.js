@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function Quantity() {
+export default function Item() {
   let [quantity, setQuantity] = useState(1);
   let [category, setCategory] = useState("Produce");
   let [name, setName] = useState("");
